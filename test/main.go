@@ -1,15 +1,11 @@
 package main
 
 import (
-	"piscine"
 	"fmt"
+	"piscine"
 )
 
-func printNbr(n int) {
-	fmt.Print(n)
-}
-
 func main() {
-	a := []int{1, 2, 3, 4, 5, 6}
-	piscine.ForEach(printNbr, a)
+	fmt.Println(piscine.DescendAppendRange(10, 5))
+	fmt.Println(piscine.DescendAppendRange(5, 10))
 }
