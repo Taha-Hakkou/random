@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	slice := []string{"Pineapple", "Honey", "Mushroom", "Tea", "Pepper", "Milk"}
-	fmt.Println(piscine.ShoppingListSort(slice))
+	fmt.Print(piscine.LoafOfBread("deliciousbread"))
+	fmt.Print(piscine.LoafOfBread("This is a loaf of bread"))
+	fmt.Print(piscine.LoafOfBread("loaf"))
 }
