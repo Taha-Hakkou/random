@@ -6,7 +6,12 @@ import (
 )
 
 func main() {
-	fmt.Print(piscine.LoafOfBread("deliciousbread"))
-	fmt.Print(piscine.LoafOfBread("This is a loaf of bread"))
-	fmt.Print(piscine.LoafOfBread("loaf"))
+	link := &piscine.List{}
+
+	piscine.ListPushFront(link, "Hello")
+	piscine.ListPushFront(link, "2")
+	piscine.ListPushFront(link, "you")
+	piscine.ListPushFront(link, "man")
+
+	fmt.Println(piscine.ListSize(link))
 }
